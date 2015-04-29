@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Shep to Snep",
-	"version": "1.0",
+	"version": "1.1",
 	"description": "Replaces the text 'shep' with 'snep'.",
 	"content_scripts":
 	[
