@@ -31,17 +31,20 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/\bshep\b/g, "snep");
-	v = v.replace(/\bShep\b/g, "Snep");
-	v = v.replace(/\bSHEP\b/g, "SNEP");
-	v = v.replace(/\bsheps\b/g, "sneps");
-	v = v.replace(/\bSheps\b/g, "Sneps");
-	v = v.replace(/\bsheppy\b/g, "sneppy");
-	v = v.replace(/\bSheppy\b/g, "Sneppy");
-	v = v.replace(/\bshepherd\b/g, "snepherd");
-	v = v.replace(/\bShepherd\b/g, "Snepherd");
-	v = v.replace(/\bbramble\b/g, "rubus");
-	v = v.replace(/\bBramble\b/g, "Rubus");
+	v = v.replace(/\bsnep\b/g, "shep");
+	v = v.replace(/\bSnep\b/g, "Shep");
+	v = v.replace(/\bSNEP\b/g, "SHEP");
+	v = v.replace(/\bsneps\b/g, "sheps");
+	v = v.replace(/\bSneps\b/g, "Sheps");
+	v = v.replace(/\bsneppy\b/g, "sheppy");
+	v = v.replace(/\bSneppy\b/g, "Sheppy");
+	v = v.replace(/\bsnow leopard\b/g, "german shepherd");
+	v = v.replace(/\bSnow leopard\b/g, "German shepherd");
+	v = v.replace(/\bSnow Leopard\b/g, "German Shepherd");
+	v = v.replace(/\b\*homph\*\b/g, "*wag*");
+	v = v.replace(/\b\*homphs\*\b/g, "*wags*");
+	v = v.replace(/\bhomph\b/g, "wag");
+	v = v.replace(/\bhomphs\b/g, "wags");
 
 	textNode.nodeValue = v;
 }

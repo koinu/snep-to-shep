@@ -1,11 +1,11 @@
-shep-to-snep
+snep-to-shep
 =============
 
-Chrome extension that replaces occurrences of 'shep' with 'snep' (plus variations) and 'bramble' with 'rubus.'  For reasons.
+Chrome extension that replaces occurrences of 'snep' with 'shep' (plus variations), and 'homph' with 'wag.'  For reasons.
 
-[Direct download of crx file](https://github.com/kierrr/cloud-to-butt/blob/master/ShepToSnep.crx?raw=true)
+[Direct download of crx file](https://github.com/koinu/snep-to-shep/blob/master/SnepToShep.crx?raw=true)
 
 Installation
 ------------
 
-In Chrome, choose Window > Extensions.  Drag ShepToSnep.crx into the page that appears.
+In Chrome, choose Window > Extensions.  Drag SnepToShep.crx into the page that appears.
